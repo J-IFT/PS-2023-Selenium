@@ -1,0 +1,204 @@
+{
+  "id": "af01da6e-0be4-4772-8609-fb761c99ab84",
+  "version": "2.0",
+  "name": "test_connexion_firefox",
+  "url": "https://fr.wikipedia.org",
+  "tests": [{
+    "id": "cc7b035c-2962-4883-a17f-dcf135934f34",
+    "name": "test_connexion_firefox",
+    "commands": [{
+      "id": "18d0ed87-2da2-4527-b02c-bacd178adba7",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Wikip%C3%A9dia:Accueil_principal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c9c7568-8a96-4e81-80cb-67824a02840b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1029",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39a42fc1-f108-48b3-aba9-cf33486ff464",
+      "comment": "",
+      "command": "click",
+      "target": "id=p-personal-checkbox",
+      "targets": [
+        ["id=p-personal-checkbox", "id"],
+        ["css=#p-personal-checkbox", "css:finder"],
+        ["xpath=//input[@id='p-personal-checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='p-personal']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4540c42e-f561-4de1-81cf-11239a733a65",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Se connecter",
+      "targets": [
+        ["linkText=Se connecter", "linkText"],
+        ["css=.vector-user-menu-login > a", "css:finder"],
+        ["xpath=//div[@id='p-personal']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/w/index.php?title=Sp%C3%A9cial:Connexion&returnto=Wikip%C3%A9dia%3AAccueil+principal')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Se connecter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bddbbfaa-93e5-4105-9a35-dc34cdbbb4de",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpName1",
+      "targets": [
+        ["id=wpName1", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName1", "css:finder"],
+        ["xpath=//input[@id='wpName1']", "xpath:attributes"],
+        ["xpath=//div[@id='userloginForm']/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b74fe78-7601-49e7-b1ea-c308f992ac62",
+      "comment": "",
+      "command": "type",
+      "target": "id=wpName1",
+      "targets": [
+        ["id=wpName1", "id"],
+        ["name=wpName", "name"],
+        ["css=#wpName1", "css:finder"],
+        ["xpath=//input[@id='wpName1']", "xpath:attributes"],
+        ["xpath=//div[@id='userloginForm']/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "bricetrp"
+    }, {
+      "id": "81e094d7-8662-4fa3-8b90-ab80338e082e",
+      "comment": "",
+      "command": "type",
+      "target": "id=wpPassword1",
+      "targets": [
+        ["id=wpPassword1", "id"],
+        ["name=wpPassword", "name"],
+        ["css=#wpPassword1", "css:finder"],
+        ["xpath=//input[@id='wpPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='userloginForm']/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456tra!"
+    }, {
+      "id": "862f4211-ba29-4e0a-86ca-767aa65a4d40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-ui-checkbox > label",
+      "targets": [
+        ["css=.mw-ui-checkbox > label", "css:finder"],
+        ["xpath=//div[@id='userloginForm']/form/div/div[3]/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Garder ma session active')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29d87d52-5bf6-4430-be12-539f8181f32b",
+      "comment": "",
+      "command": "click",
+      "target": "id=wpLoginAttempt",
+      "targets": [
+        ["id=wpLoginAttempt", "id"],
+        ["name=wploginattempt", "name"],
+        ["css=#wpLoginAttempt", "css:finder"],
+        ["xpath=//button[@id='wpLoginAttempt']", "xpath:attributes"],
+        ["xpath=//div[@id='userloginForm']/form/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Se connecter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a653ebb-4a78-4436-8039-75014cda2630",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#searchform .cdx-text-input__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9440bb3b-2799-4f58-8f41-28757f5dff74",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac409628-dd7a-4f97-a374-a7fa671097a3",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.cdx-text-input__input--has-value", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "inoxtag"
+    }, {
+      "id": "849c5256-b8ee-4cfe-90b7-aed23e5596cf",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.cdx-text-input__input--has-value", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b52d4f37-341b-4e87-954d-b5d1a7c83812",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#searchform .cdx-text-input__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aad592cb-d847-4fd2-87db-347e08b0a4f9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cea058a1-236a-4112-b257-333c905dbbc6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://fr.wikipedia.org/"],
+  "plugins": []
+}

@@ -1,0 +1,139 @@
+{
+  "id": "5e3e4b34-98e3-4008-b000-9feec05d4680",
+  "version": "2.0",
+  "name": "wiki_test",
+  "url": "https://fr.wikipedia.org",
+  "tests": [{
+    "id": "8c75f869-5644-45f8-8aed-c91c3da3911d",
+    "name": "test_recherche_firefox",
+    "commands": [{
+      "id": "f78e6851-b0c1-4adc-816c-1809230e5abc",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Wiki",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b191587-fee7-4bb8-ade8-3d1476a19ad0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63f0113d-ee96-451f-b3d7-551e31ca2ab7",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69790a0f-04fa-450d-9141-0885becd9e6c",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.cdx-text-input__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "François Hollande"
+    }, {
+      "id": "7c7911e0-c34f-41d2-be51-2f09bec225f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdx-button",
+      "targets": [
+        ["css=.cdx-button", "css:finder"],
+        ["xpath=//form[@id='searchform']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Rechercher')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8dc6511-180c-41fd-ad0f-511c39624709",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53940de9-7c93-4792-bf47-5b22c4eed35c",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.cdx-text-input__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "emmanuel macron"
+    }, {
+      "id": "fec85d39-ca8f-493d-9111-793816c858c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdx-button",
+      "targets": [
+        ["css=.cdx-button", "css:finder"],
+        ["xpath=//form[@id='searchform']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Rechercher')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6918093-341a-480e-9097-b4151f91eec3",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.cdx-text-input__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "jacques chirac"
+    }, {
+      "id": "99dffed1-8a6e-48d8-9f7f-9f87e109b79d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.cdx-text-input__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "da65b839-10b4-46bc-a4ae-704aeeb6b612",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8c75f869-5644-45f8-8aed-c91c3da3911d"]
+  }],
+  "urls": ["https://fr.wikipedia.org/"],
+  "plugins": []
+}
