@@ -1,0 +1,1 @@
+        assert page.get_title() == WelcomePage.title

@@ -1,0 +1,120 @@
+{
+  "id": "6daad5d2-1e9b-461a-8503-aedfbf796b9b",
+  "version": "2.0",
+  "name": "test_recherche",
+  "url": "https://fr.wikipedia.org",
+  "tests": [{
+    "id": "93a031c5-6601-427e-8e07-86b67a45c2ec",
+    "name": "test_recherche",
+    "commands": [{
+      "id": "a00efbd5-c83a-4efe-a1dd-67a4db1df5b2",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Wikip%C3%A9dia:Accueil_principal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9347c47-a8c9-493d-8e92-3526fac68c19",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac6e608e-0782-4051-8590-059d637f2a0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4ca0ebd-8071-42d1-a1fb-1e17b5317610",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.cdx-text-input__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "Michou (vidéaste)"
+    }, {
+      "id": "a713850b-98e2-4eb5-b27e-9c5a1c39e00c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdx-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "258cc610-17e6-4686-ac65-49ee58630100",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.cdx-text-input__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "inoxtag"
+    }, {
+      "id": "3e712148-5a2b-4d69-80be-48ac385809e9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.cdx-text-input__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "938f294d-31b2-4734-8f90-bec32981344a",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.cdx-text-input__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "joyca"
+    }, {
+      "id": "219c1f61-76bb-4cd8-852f-18620113f8c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdx-button",
+      "targets": [
+        ["css=.cdx-button", "css:finder"],
+        ["xpath=//form[@id='searchform']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Rechercher')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cbb8e656-497b-4fe9-9c5a-f6d0c219bea1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["93a031c5-6601-427e-8e07-86b67a45c2ec"]
+  }],
+  "urls": ["https://fr.wikipedia.org/"],
+  "plugins": []
+}
