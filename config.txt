@@ -1,0 +1,481 @@
+{
+  "value": {
+    "ready": true,
+    "message": "Selenium Grid ready.",
+    "nodes": [
+      {
+        "id": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+        "uri": "http:\u002f\u002f169.254.237.191:5555",
+        "maxSessions": 8,
+        "osInfo": {
+          "arch": "amd64",
+          "name": "Windows 11",
+          "version": "10.0"
+        },
+        "heartbeatPeriod": 60000,
+        "availability": "UP",
+        "version": "4.8.0 (revision 267030adea)",
+        "slots": [
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "ce616618-40a0-4d2f-a1d4-067e1bd3a23e"
+            },
+            "lastStarted": "1970-01-01T00:00:00Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "MicrosoftEdge",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "1de6053c-d997-4068-b211-91ec90aaf77a"
+            },
+            "lastStarted": "2023-02-05T23:40:38.430858Z",
+            "session": {
+              "capabilities": {
+                "acceptInsecureCerts": true,
+                "browserName": "firefox",
+                "browserVersion": "109.0.1",
+                "moz:accessibilityChecks": false,
+                "moz:buildID": "20230127170202",
+                "moz:debuggerAddress": "127.0.0.1:5862",
+                "moz:geckodriverVersion": "0.32.1",
+                "moz:headless": false,
+                "moz:platformVersion": "10.0",
+                "moz:processID": 18496,
+                "moz:profile": "C:\\Users\\julie\\AppData\\Local\\Temp\\rust_mozprofileUM7qyb",
+                "moz:shutdownTimeout": 60000,
+                "moz:useNonSpecCompliantPointerOrigin": false,
+                "moz:webdriverClick": true,
+                "moz:windowless": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "WINDOWS",
+                "proxy": {
+                },
+                "se:bidi": "ws:\u002f\u002f169.254.237.191:4444\u002fsession\u002f6add7208-d1e1-4480-bade-e415c9f1350e\u002fse\u002fbidi",
+                "se:cdp": "ws:\u002f\u002f169.254.237.191:4444\u002fsession\u002f6add7208-d1e1-4480-bade-e415c9f1350e\u002fse\u002fcdp",
+                "se:cdpVersion": "85.0",
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify"
+              },
+              "sessionId": "6add7208-d1e1-4480-bade-e415c9f1350e",
+              "start": "2023-02-05T23:40:38.430858Z",
+              "stereotype": {
+                "browserName": "firefox",
+                "platformName": "Windows 11"
+              },
+              "uri": "http:\u002f\u002f169.254.237.191:5555"
+            },
+            "stereotype": {
+              "browserName": "firefox",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "a94d9c45-ed8c-4a8e-9e3d-f1552f14dd16"
+            },
+            "lastStarted": "2023-02-05T23:40:05.333380200Z",
+            "session": {
+              "capabilities": {
+                "acceptInsecureCerts": false,
+                "browserName": "chrome",
+                "browserVersion": "109.0.5414.120",
+                "chrome": {
+                  "chromedriverVersion": "109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs\u002fbranch-heads\u002f5414@{#1172})",
+                  "userDataDir": "C:\\Users\\julie\\AppData\\Local\\Temp\\scoped_dir6280_1986102013"
+                },
+                "goog:chromeOptions": {
+                  "debuggerAddress": "localhost:56591"
+                },
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "WINDOWS",
+                "proxy": {
+                },
+                "se:bidiEnabled": false,
+                "se:cdp": "ws:\u002f\u002f169.254.237.191:4444\u002fsession\u002f3d728442b61b718af5dfa0f7006ed063\u002fse\u002fcdp",
+                "se:cdpVersion": "109.0.5414.120",
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify",
+                "webauthn:extension:credBlob": true,
+                "webauthn:extension:largeBlob": true,
+                "webauthn:virtualAuthenticators": true
+              },
+              "sessionId": "3d728442b61b718af5dfa0f7006ed063",
+              "start": "2023-02-05T23:40:05.333380200Z",
+              "stereotype": {
+                "browserName": "chrome",
+                "platformName": "Windows 11"
+              },
+              "uri": "http:\u002f\u002f169.254.237.191:5555"
+            },
+            "stereotype": {
+              "browserName": "chrome",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "3ddb5d73-7675-4963-af6a-02f7e0a55901"
+            },
+            "lastStarted": "1970-01-01T00:00:00Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "MicrosoftEdge",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "f7cc49df-1166-45db-a4f9-282d4306389f"
+            },
+            "lastStarted": "1970-01-01T00:00:00Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "MicrosoftEdge",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "6c88ad3b-36c0-49ef-9367-8b739af394ed"
+            },
+            "lastStarted": "1970-01-01T00:00:00Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "MicrosoftEdge",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "6e4cb560-f00c-4b70-859f-0a79d90dbeba"
+            },
+            "lastStarted": "2023-02-05T23:40:58.046545600Z",
+            "session": {
+              "capabilities": {
+                "acceptInsecureCerts": false,
+                "browserName": "chrome",
+                "browserVersion": "109.0.5414.120",
+                "chrome": {
+                  "chromedriverVersion": "109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs\u002fbranch-heads\u002f5414@{#1172})",
+                  "userDataDir": "C:\\Users\\julie\\AppData\\Local\\Temp\\scoped_dir21144_1769313058"
+                },
+                "goog:chromeOptions": {
+                  "debuggerAddress": "localhost:56827"
+                },
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "WINDOWS",
+                "proxy": {
+                },
+                "se:bidiEnabled": false,
+                "se:cdp": "ws:\u002f\u002f169.254.237.191:4444\u002fsession\u002f6a6aeed3db717815be7492a5500e58fb\u002fse\u002fcdp",
+                "se:cdpVersion": "109.0.5414.120",
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify",
+                "webauthn:extension:credBlob": true,
+                "webauthn:extension:largeBlob": true,
+                "webauthn:virtualAuthenticators": true
+              },
+              "sessionId": "6a6aeed3db717815be7492a5500e58fb",
+              "start": "2023-02-05T23:40:58.046545600Z",
+              "stereotype": {
+                "browserName": "chrome",
+                "platformName": "Windows 11"
+              },
+              "uri": "http:\u002f\u002f169.254.237.191:5555"
+            },
+            "stereotype": {
+              "browserName": "chrome",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "eb60bbe7-314c-475d-8d28-5c838471bb88"
+            },
+            "lastStarted": "2023-02-05T23:29:18.712560500Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "chrome",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "31a1662b-69df-42d2-bd37-bffbdd097bce"
+            },
+            "lastStarted": "2023-02-05T22:06:15.324719900Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "chrome",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "ccb652ef-e623-4af7-8cc5-7351f5178f8e"
+            },
+            "lastStarted": "2023-02-05T22:47:26.724883600Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "firefox",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "7d822ced-087e-419d-b096-97cce11bd235"
+            },
+            "lastStarted": "2023-02-05T22:52:19.738424600Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "firefox",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "66fa6963-ecef-473d-bef4-88181da5603b"
+            },
+            "lastStarted": "1970-01-01T00:00:00Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "chrome",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "e1c3a7eb-5d7d-400f-895f-52b5190b8253"
+            },
+            "lastStarted": "1970-01-01T00:00:00Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "MicrosoftEdge",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "3f847ae8-2c98-41b7-a61c-fa17efef1c9b"
+            },
+            "lastStarted": "1970-01-01T00:00:00Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "MicrosoftEdge",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "c623ad50-e090-4d03-a020-d1e80c8e2aa1"
+            },
+            "lastStarted": "1970-01-01T00:00:00Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "firefox",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "15af7f37-f30e-4902-8ec0-5a7ecf46eefe"
+            },
+            "lastStarted": "1970-01-01T00:00:00Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "internet explorer",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "1da597b5-95c4-4bb0-b07e-effe1f8186cd"
+            },
+            "lastStarted": "1970-01-01T00:00:00Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "MicrosoftEdge",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "c2e0d61f-dfab-4f33-8c7a-107cd96327db"
+            },
+            "lastStarted": "2023-02-05T22:12:24.606080200Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "chrome",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "17eec421-02f5-4420-b239-823f03a6c831"
+            },
+            "lastStarted": "2023-02-05T22:12:00.769892400Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "chrome",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "0e9b4bb5-5757-4e47-bc6e-b2f842006f3a"
+            },
+            "lastStarted": "2023-02-05T22:50:46.098549100Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "firefox",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "bbfefc9c-7392-4f1d-89f3-5e3bc0b26ba5"
+            },
+            "lastStarted": "2023-02-05T22:43:24.964897500Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "firefox",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "bdac9cab-9d57-407b-a8bd-12b70d1ccc08"
+            },
+            "lastStarted": "2023-02-05T22:49:52.840663300Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "firefox",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "5fd04f67-a2aa-42aa-b63c-14f8c8220d0f"
+            },
+            "lastStarted": "2023-02-05T23:41:24.053050500Z",
+            "session": {
+              "capabilities": {
+                "acceptInsecureCerts": true,
+                "browserName": "firefox",
+                "browserVersion": "109.0.1",
+                "moz:accessibilityChecks": false,
+                "moz:buildID": "20230127170202",
+                "moz:debuggerAddress": "127.0.0.1:32091",
+                "moz:geckodriverVersion": "0.32.1",
+                "moz:headless": false,
+                "moz:platformVersion": "10.0",
+                "moz:processID": 19140,
+                "moz:profile": "C:\\Users\\julie\\AppData\\Local\\Temp\\rust_mozprofileluGaq1",
+                "moz:shutdownTimeout": 60000,
+                "moz:useNonSpecCompliantPointerOrigin": false,
+                "moz:webdriverClick": true,
+                "moz:windowless": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "WINDOWS",
+                "proxy": {
+                },
+                "se:bidi": "ws:\u002f\u002f169.254.237.191:4444\u002fsession\u002f937bb1d3-26cc-449a-bd02-9cc287999767\u002fse\u002fbidi",
+                "se:cdp": "ws:\u002f\u002f169.254.237.191:4444\u002fsession\u002f937bb1d3-26cc-449a-bd02-9cc287999767\u002fse\u002fcdp",
+                "se:cdpVersion": "85.0",
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify"
+              },
+              "sessionId": "937bb1d3-26cc-449a-bd02-9cc287999767",
+              "start": "2023-02-05T23:41:24.053050500Z",
+              "stereotype": {
+                "browserName": "firefox",
+                "platformName": "Windows 11"
+              },
+              "uri": "http:\u002f\u002f169.254.237.191:5555"
+            },
+            "stereotype": {
+              "browserName": "firefox",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "21138791-d07f-4d5a-8f9a-bf0c08e9fb16"
+            },
+            "lastStarted": "2023-02-05T22:31:54.259506100Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "chrome",
+              "platformName": "Windows 11"
+            }
+          },
+          {
+            "id": {
+              "hostId": "a9cb2284-6acb-4e32-8733-4f881ad2a209",
+              "id": "11132b9d-63bc-4b94-9227-f5f787af0f65"
+            },
+            "lastStarted": "1970-01-01T00:00:00Z",
+            "session": null,
+            "stereotype": {
+              "browserName": "MicrosoftEdge",
+              "platformName": "Windows 11"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
